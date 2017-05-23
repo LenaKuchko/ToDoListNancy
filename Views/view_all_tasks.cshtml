@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>To Do List</h1>
+      <ul>
+        @foreach(string task in Model)
+        {
+          <li>@task</li>
+        }
+      </ul>
+      <p><a href="/">Add another task</a></p>
+  </body>
+</html>
